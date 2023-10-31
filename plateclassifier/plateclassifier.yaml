@@ -1,0 +1,49 @@
+dev:
+  broker:
+    uri: 'amqp://guest:guest@localhost:5672/%2F?connection_attempts=3&heartbeat=3600'
+    publishTo:
+      exchange: 'plateclassifier'
+      exchangeType: 'fanout'
+      routingKey: 'plateclassified'
+    consumeFrom:
+      exchange: 'platedetector'
+      exchangeType: 'fanout'
+      routingKey: 'platedetection'
+      queueName: 'classification_enqueue'
+  mongo:
+    uri: 'mongodb://lpr:lpr@localhost:27017'
+  model:
+    modelfile: '../models/plateclassifier'
+    modelLoss: 'categorical_crossentropy'
+    imgWidth: 300
+    imgHeight: 300
+    imgChan: 3
+  classification:
+    # what should be the min score that we stop classifying after
+    minScore: 0.9
+  storage:
+    path: '../filestorage'
+prod:
+  broker:
+    uri: 'amqp://guest:guest@broker:5672/%2F?connection_attempts=3&heartbeat=3600'
+    publishTo:
+      exchange: 'plateclassifier'
+      exchangeType: 'fanout'
+      routingKey: 'plateclassified'
+    consumeFrom:
+      exchange: 'platedetector'
+      exchangeType: 'fanout'
+      routingKey: 'platedetection'
+      queueName: 'classification_enqueue'
+  mongo:
+    uri: 'mongodb://lpr:lpr@mongodb:27017'
+  model:
+    modelfile: '/models/plateclassifier'
+    modelLoss: 'categorical_crossentropy'
+    imgWidth: 300
+    imgHeight: 300
+    imgChan: 3
+  classification:
+    minScore: 0.9
+  storage:
+    path: '/filestorage'
