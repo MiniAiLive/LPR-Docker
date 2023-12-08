@@ -1,5 +1,5 @@
 FROM openlpr/base-image:2.0
-LABEL maintainer="faisal.ajmal@gmail.com"
+LABEL maintainer="liangyao211@gmail.com"
 
 ADD ./plateclassifier /openlpr/plateclassifier
 WORKDIR /openlpr/plateclassifier
