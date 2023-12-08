@@ -9,7 +9,7 @@ Feel free to use our MiniAI License Plate Recognition software which uses deep n
 
 # Demo Video
 
-
+https://github.com/MiniAiLive/MiniAI-LPR-Docker/assets/106538966/59aa5ee2-4eae-4d61-b77f-67a95072e526
 
 In the above example it can be see that LPR was performed on the video and text number was extracted successfully from the license plate area.
 
