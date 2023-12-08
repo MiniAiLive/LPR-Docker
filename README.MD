@@ -27,11 +27,11 @@ Also install docker-compose.
 This step will take a few minutes depending on your internet connection speed. Use "bash" shell to issue the following commands
 
 ```bash
-git clone https://github.com/MiniAiLive/MiniAI-LPR-Docker.git && \
+git clone https://github.com/MiniAiLive/MiniAI-LPR-Docker.git
 cd MiniAI-LPR-Docker
 docker-compose up -d
 ```
-> **Important** Images are updated frequently, therefore to ensure you are running the latest version consider using watchtower.
+
 
 ## 3. Open your browser and upload file to process
 
