@@ -4,7 +4,7 @@
    width="300">
 </div>
 
-## Welcome to the MiniAiLive!
+## Welcome to the [MiniAiLive](https://www.miniai.live/)!
 Feel free to use our MiniAI License Plate Recognition software which uses deep neural networks to detect license plates and perform OCR.
 
 # Demo Video
@@ -26,7 +26,7 @@ Also install docker-compose.
 ## 2. Clone this repo & start services
 This step will take a few minutes depending on your internet connection speed. Use "bash" shell to issue the following commands
 
-```bash
+```
 git clone https://github.com/MiniAiLive/MiniAI-LPR-Docker.git
 cd MiniAI-LPR-Docker
 docker-compose up -d
@@ -39,10 +39,10 @@ Use google chrome to navigate to the following address
 http://localhost:5000/
 
 ## About MiniAiLive
-MiniAiLive is a leading AI solutions company specializing in computer vision and machine learning technologies. We provide cutting-edge solutions for various industries, leveraging the power of AI to drive innovation and efficiency.
+[MiniAiLive](https://www.miniai.live/) is a leading AI solutions company specializing in computer vision and machine learning technologies. We provide cutting-edge solutions for various industries, leveraging the power of AI to drive innovation and efficiency.
 
-## Contact
-For any inquiries or questions, please contact us at info@miniai.live.
+## Contact US
+For any inquiries or questions, please [Contact US](https://www.miniai.live/contact/)
 
 <p align="center">
 <a target="_blank" href="https://t.me/Contact_MiniAiLive"><img src="https://img.shields.io/badge/telegram-@MiniAiLive-blue.svg?logo=telegram" alt="www.miniai.live"></a>&emsp;
