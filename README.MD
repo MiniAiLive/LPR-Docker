@@ -32,11 +32,43 @@ cd MiniAI-LPR-Docker
 docker-compose up -d
 ```
 
-
 ## 3. Open your browser and upload file to process
 
 Use google chrome to navigate to the following address
 http://localhost:5000/
+
+## Face & IDSDK Online Demo, Resources
+<div style="display: flex; justify-content: center; align-items: center;"> 
+   <table style="text-align: center;">
+      <tr>
+         <td style="text-align: center; vertical-align: middle;"><a href="https://github.com/MiniAiLive"><img src="https://miniai.live/wp-content/uploads/2024/10/github-300x95.png" style="height: 80px; margin-right: 5px;" title="GITHUB"/></a></td> 
+         <td style="text-align: center; vertical-align: middle;"><a href="https://huggingface.co/MiniAiLive"><img src="https://miniai.live/wp-content/uploads/2024/10/huggingface-300x88.png" style="height: 80px; margin-right: 5px;" title="HuggingFace"/></a></td> 
+         <td style="text-align: center; vertical-align: middle;"><a href="https://demo.miniai.live"><img src="https://www.gradio.app/_app/immutable/assets/gradio.CHB5adID.svg" style="height: 80px; margin-right: 5px;" title="Gradio"/></a></td> 
+      </tr> 
+      <tr>
+         <td style="text-align: center; vertical-align: middle;"><a href="https://docs.miniai.live/"><img src="https://miniai.live/wp-content/uploads/2024/10/a-300x70.png" style="height: 80px; margin-right: 5px;" title="Documentation"/></a></td> 
+         <td style="text-align: center; vertical-align: middle;"><a href="https://www.youtube.com/@miniailive"><img src="https://miniai.live/wp-content/uploads/2024/10/Untitled-1-300x70.png" style="height: 80px; margin-right: 5px;" title="Youtube"/></a></td> 
+         <td style="text-align: center; vertical-align: middle;"><a href="https://play.google.com/store/apps/dev?id=5831076207730531667"><img src="https://miniai.live/wp-content/uploads/2024/10/googleplay-300x62.png" style="height: 80px; margin-right: 5px;" title="Google Play"/></a></td>
+      </tr>
+   </table>
+</div>
+
+## Our Products
+No | Project | Feature
+---|---|---|
+1 | [FaceRecognition-LivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection) | Face Matching, 3D Face Passive Liveness
+2 | [FaceRecognition-LivenessDetection-Windows-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Windows-SDK) | Face Matching, 3D Face Passive Liveness
+3 | [FaceLivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Android-SDK) | 3D Face Passive Liveness
+4 | [FaceLivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK) | 3D Face Passive Liveness
+5 | [FaceLivenessDetection-Windows-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Windows-SDK) | 3D Face Passive Liveness
+6 | [FaceMatching-Android-SDK](https://github.com/MiniAiLive/FaceMatching-Android-SDK) | 1:1 Face Matching
+7 | [FaceMatching-Windows-Demo](https://github.com/MiniAiLive/FaceMatching-Windows-Demo) | 1:1 Face Matching
+8 | [FaceAttributes-Android-SDK](https://github.com/MiniAiLive/FaceAttributes-Android-SDK) | Face Attributes
+9 | [ID-Document-Recognition-Android-SDK](https://github.com/MiniAiLive/ID-Document-Recognition-Android-SDK) | ID Document, Credit, MRZ Recognition
+10 | [ID-Document-Recognition-Linux-SDK](https://github.com/MiniAiLive/ID-Document-Recognition-Linux-SDK) | ID Document, Credit, MRZ Recognition
+11 | [ID-Document-Recognition-Windows-SDK](https://github.com/MiniAiLive/ID-Document-Recognition-Windows-SDK) | ID Document, Credit, MRZ Recognition
+12 | [ID-Document-LivenessDetection-Linux-SDK](https://github.com/MiniAiLive/ID-Document-LivenessDetection-Linux-SDK) | ID Document Liveness Detection
+13 | [ID-Document-LivenessDetection-Windows-SDK](https://github.com/MiniAiLive/ID-Document-LivenessDetection-Windows-SDK) | ID Document Liveness Detection
 
 ## About MiniAiLive
 [MiniAiLive](https://www.miniai.live/) is a leading AI solutions company specializing in computer vision and machine learning technologies. We provide cutting-edge solutions for various industries, leveraging the power of AI to drive innovation and efficiency.
